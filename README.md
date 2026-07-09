@@ -1,98 +1,33 @@
-# 🚀 NovArch Calamares Repository
+# Nova
 
-<p align="center">
-  <b>Custom Calamares packages for NovArch Linux</b><br>
-  Modern • Lightweight • KDE Integrated
-</p>
+The official package repository for **NovArch Linux**.
 
----
+Nova hosts packages developed and maintained specifically for NovArch, including custom applications, installer components, system configurations, themes, and other distribution-specific software.
 
-## 📖 About
+Packages are distributed using the standard **Arch Linux** packaging format and are fully compatible with **pacman**.
 
-This repository contains the custom **Calamares Installer** packages used by **NovArch Linux**.
+## Features
 
-The packages hosted here are used for:
+- Official NovArch packages
+- Pacman-compatible repository
+- Distribution-specific software
+- Custom installer components
+- Regular package updates
 
-* 💿 Live ISO installation
-* 🖥️ Graphical system deployment
-* ⚙️ Automated partitioning and setup
-* 🎨 KDE Plasma integration
-* 🔧 NovArch-specific installer customizations
+## Usage
 
----
-
-## 📦 Repository Structure
-
-```text
-x86_64/
-├── novarch-calamares.db.tar.gz
-├── novarch-calamares.files.tar.gz
-├── calamares-*.pkg.tar.zst
-└── calamares-debug-*.pkg.tar.zst
-```
-
----
-
-## 🛠️ Using This Repository
-
-Add the repository to your `/etc/pacman.conf`:
-
-```ini
-[novarch-calamares]
-Server = https://novarchlinux.github.io/calamares/x86_64
-```
-
-Then refresh package databases:
+Once the Nova repository is enabled, packages can be managed using pacman.
 
 ```bash
 sudo pacman -Sy
+sudo pacman -S <package>
+sudo pacman -Syu
 ```
 
----
+## Contributing
 
-## 🎯 Project Goals
+Contributions are welcome. Please open an Issue or Pull Request for bug fixes, improvements, or new packages.
 
-* ✅ Reliable graphical installation
-* ✅ Clean KDE Plasma experience
-* ✅ Seamless NovArch deployment
-* ✅ Easy maintenance and updates
-* ✅ Modern Linux installer workflow
+## License
 
----
-
-## 🌟 Related Projects
-
-### 🌐 NovArch Website
-
-Official website and project information.
-
-### 💿 NovArch Distribution
-
-Source code and build scripts for NovArch Linux.
-
-### 📚 Documentation
-
-Installation guides, configuration references and development notes.
-
----
-
-## 🤝 Contributing
-
-Contributions, bug reports and suggestions are welcome.
-
-Feel free to open an issue or submit a pull request.
-
----
-
-## 📜 License
-
-This repository distributes packages built from upstream projects.
-
-Licensing remains subject to the original upstream software licenses.
-
----
-
-<p align="center">
-  Made with ❤️ for NovArch Linux
-</p>
-
+Each package retains its own license. NovArch-specific repository files are licensed under the MIT License.
