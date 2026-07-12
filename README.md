@@ -34,4 +34,5 @@ Each package retains its own license. NovArch-specific repository files are lice
 
 
 
-**Note:-** This is currently under development and not been used in official NovArch Linux. It will be included officially in NovArch Linux v0.2.
+
+## **Note:-** This is currently under development and not been used in official NovArch Linux. It will be included officially in NovArch Linux v0.2.
