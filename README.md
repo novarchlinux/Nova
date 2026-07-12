@@ -27,7 +27,11 @@ sudo pacman -Syu
 ## Contributing
 
 Contributions are welcome. Please open an Issue or Pull Request for bug fixes, improvements, or new packages.
-
+   
 ## License
 
 Each package retains its own license. NovArch-specific repository files are licensed under the MIT License.
+
+
+
+**Note:-** This is currently under development and not been used in official NovArch Linux. It will be included officially in NovArch Linux v0.2.
